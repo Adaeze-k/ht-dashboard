@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Teach</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+	<!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+	<link rel="stylesheet" type="text/css" href="css/tutor.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-1 bg-green side-nav py-5 d-none d-sm-block shadow">
+				<div class="fixed">
+					<div class="side-content">
+						<div class="user-name font-weight-bold">
+							<span class="badge bg-yellow"><i class="fab fa-houzz"></i></span> 
+						</div>
+						<div class="mb-5">
+							<div class="text-center">
+								<a href="index.html" class="active"><i class="fas fa-tachometer-alt text-yellow mr-2"></i><br>Dashboard </a>
+							</div>
+							
+						</div>
+						<div class="mb-5 text-center">
+							<a href="jobs.html"><i class="fas fa-tachometer-alt text-yellow mr-2"></i><br>Ongoing Jobs</a>
+						</div>
+						<div class="mb-5 text-center">
+							<a href="reviews.html"><i class="fas fa-chalkboard-teacher text-yellow mr-2"></i><br>Rating and Review</a>
+						</div>
+						<div class="mb-5 text-center">
+							<a href="#"><i class="fas fa-envelope-open-text text-yellow mr-2"></i><br>Inbox</a>
+						</div>
+						<div class="mb-5 text-center">
+							<a href="schedule.html"><i class="fas fa-tasks text-yellow mr-2"></i><br>Schedule</a>
+						</div>
+						
+						<div class="mb-5 text-center">
+							<a href="#"><i class="fas fa-question-circle text-yellow mr-2"></i><br>Help Center</a>
+						</div>
+						<div class="mb-4 mt-5 pt-5 text-center">
+							<a href="#" class="text-white"><i class="fas fa-sign-out-alt text-yellow"></i><br>Logout</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="bg-green py-2 fixed-top shadow d-block d-sm-none text-white">
+				<div class="container-fluid">
+					<div class="d-flex justify-content-between">
+						<div>
+							<span class="badge bg-yellow p-2"><i class="fab fa-houzz"></i></span>
+						</div>
+						<div>
+							<button class="btn btn-sm m-btn-yellow text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</button>
+							<div class="dropdown-menu bg-green text-white" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="index.html" class="text-white"><i class="fas fa-tachometer-alt text-yellow mr-2"></i>Dashboard </a>
+							    <a class="dropdown-item" href="jobs.html"><i class="fas fa-tachometer-alt text-yellow mr-2"></i>Ongoing Jobs</a>
+							    <a class="dropdown-item" href="reviews.html"><i class="fas fa-chalkboard-teacher text-yellow mr-2"></i>Rating and Review</a>
+							    <a class="dropdown-item" href="#"><i class="fas fa-envelope-open-text text-yellow mr-2"></i>Inbox</a>
+							    <a class="dropdown-item" href="schedule.html"><i class="fas fa-tasks text-yellow mr-2"></i>Schedule</a>
+							    <a class="dropdown-item" href="#"><i class="fas fa-question-circle text-yellow mr-2"></i>Help Center</a>
+							    <a class="dropdown-item" href="#" class="text-white"><i class="fas fa-sign-out-alt text-yellow"></i> Logout</a>
+							  </div>
+						</div>
+					</div>
+				</div>
+				
+			</nav>
+			<div class="col-sm-11 py-5 right-content">
+				<div class="container-fluid pt-3">
+					<div class="row mb-4">
+						<div class="col-md-8">
+							<div class="text-green">
+								<h3>Welcome Back, <span class="font-weight-bold">Sandra</span></h3>
+								<div>Good to see you again new experience awaits.</div>
+								<div>Progress is <span class="text-yellow">awesome!</span></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="d-flex">
+								<div class="pr-5">
+									<i class="fas fa-bell text-green"></i>
+								</div>
+								<div class="pt-5 pr-5">
+									<h6 class="font-weight-bold">Sandra A.</h6>
+									<div>heremail@gmail.com</div>
+									<div>NCE. English Lang.</div>
+								</div>
+								<div class="text-center px-md-5">
+									<div class="">
+										<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="50px" height="50px">
+									</div>
+									<div class="my-3">
+										<button class="btn btn-sm bg-green text-white"> <i class="fas fa-pen text-yellow"></i> Edit</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="shadow bg-white rounded-1 p-3">
+								<div>
+									<h6 class="font-weight-bold">Schedule <button class="btn btn-pink float-right bg-pink rounded"><i class="fas fa-pen text-yellow fa-2x p-1"></i></button></h6>
+								</div>
+								<div class="mb-3">
+
+								  <div class="calendar">
+								    <div class="month-indicator">
+								      <time datetime="2019-02"> July 2021 </time>
+								    </div>
+								    <div class="day-of-week">
+								      <div>Su</div>
+								      <div>Mo</div>
+								      <div>Tu</div>
+								      <div>We</div>
+								      <div>Th</div>
+								      <div>Fr</div>
+								      <div>Sa</div>
+								    </div>
+								    <div class="date-grid">
+								      <button>
+								        <time datetime="2019-02-01">1</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-02">2</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-03">3</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-04">4</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-05">5</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-06">6</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-07">7</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-08">8</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-09">9</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-10">10</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-11">11</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-12">12</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-13">13</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-14">14</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-15">15</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-16">16</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-17">17</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-18">18</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-19">19</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-20">20</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-21">21</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-22">22</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-23">23</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-24">24</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-25">25</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-26">26</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-27">27</time>
+								      </button>
+								      <button>
+								        <time datetime="2019-02-28">28</time>
+								      </button>
+								    </div>
+								  </div>
+
+
+
+								</div>
+								<div class="d-flex justify-content-between shadow px-3 py-1 rounded-1 my-4 mt-5">
+									<div> <i class="fas fa-circle text-yellow mr-2"></i> Class to attend</div>
+									<div> <i class="fas fa-circle text-green mr-2"></i>Class attended</div>
+								</div>
+								<div class="shadow unattended mb-4">
+									<div class="d-flex pl-3 justify-content-around py-2">
+										<div>
+											<h6 class="font-weight-bold">English Language</h6>
+											<div class="small">(Homophones)</div>
+											<div class="small">Thursday, 17th-25th</div>
+											<div class="small">5pm-8pm</div>
+
+										</div>
+										<div>
+											<div class="text-center pt-5 text-danger small">
+												<i class="fas fa-dot-circle"></i>
+												<div>Absent</div>
+											</div>
+										</div>
+										<div>
+											<div class="text-center">
+													<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="20px" height="20px">
+												</div>
+											<div class="text-center text-green pt-4 small">
+												<i class="fas fa-dot-circle"></i>
+												<div>Present</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="shadow attended mb-4">
+									<div class="d-flex pl-3 justify-content-around py-2">
+										<div>
+											<h6 class="font-weight-bold">Mathematics</h6>
+											<div class="small">(Geometrical shapes)</div>
+											<div class="small">Friday, 17th-25th</div>
+											<div class="small">5pm-8pm</div>
+
+										</div>
+										<div>
+											<div class="text-center pt-5 text-danger small">
+												<i class="fas fa-dot-circle"></i>
+												<div>Absent</div>
+											</div>
+										</div>
+										<div>
+											<div class="text-center">
+													<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="20px" height="20px">
+												</div>
+											<div class="text-center text-green pt-4 small">
+												<i class="fas fa-dot-circle"></i>
+												<div>Present</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="text-right font-weight-bold">
+									<a href="#" class="text-green">See More</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="shadow bg-white rounded-1 p-3">
+								<div class="d-flex justify-content-between">
+									<div>
+										<h6 class="font-weight-bold">Analysis </h6>
+									</div>
+									<div>
+										<select class="form-control bg-pink rounded"><option>July</option></select>
+									</div>
+								</div>
+								<div class="d-flex justify-content-center align-content-center">
+									<div class="clearfix">
+						                <div class="c100 p50 big green">
+						                    <span>50%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>
+						                </div>
+
+						            </div>
+								</div>
+								<div class="text-yellow">
+									Current <br>Ratings
+								</div>
+								<div class="d-flex justify-content-between shadow px-3 py-1 rounded-1 my-3">
+									<div> <i class="fas fa-circle text-yellow mr-2"></i> Progress</div>
+									<div> <i class="fas fa-circle text-green mr-2"></i>Done</div>
+								</div>
+								<h6 class="font-weight-bold py-3">Current Jobs</h6>
+								<div class="shadow jobs mb-4">
+									<div class="d-flex justify-content-around py-2">
+										<div class="text-center">
+												<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="80px" height="80px">
+										</div>
+										<div>
+											<div class="text-center pt-1 text-muted">
+												<h5 class="font-weight-bold">Samuel Peter </h5>
+												<div class="small">Pry 6, English Language</div>
+											</div>
+										</div>
+										<div>
+											<div class="text-center">
+													<span class="btn btn-sm bg-green text-white disabled">Bio</span>
+											</div>
+											<div class="text-center pt-4">
+												<span class="btn btn-sm font-weight-bold btn-outline-warning disabled">550/HR</span>
+											</div>
+										</div>
+									</div>
+									<div class="p-3">
+										<button class="btn btn-lg bg-green text-white left">Message</button>
+										<button class="btn btn-lg bg-green m-btn-yellow text-green float-right">Review</button>
+									</div>
+								</div>
+								<div class="shadow jobs mb-4">
+									<div class="d-flex justify-content-around py-2">
+										<div class="text-center">
+												<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="80px" height="80px">
+										</div>
+										<div>
+											<div class="text-center pt-1 text-muted">
+												<h5 class="font-weight-bold">Tony Isiehu </h5>
+												<div class="small">Pry 5, Basic Science</div>
+											</div>
+										</div>
+										<div>
+											<div class="text-center">
+													<span class="btn btn-sm bg-green text-white disabled">Bio</span>
+											</div>
+											<div class="text-center pt-4">
+												<span class="btn btn-sm font-weight-bold btn-outline-warning disabled">400/HR</span>
+											</div>
+										</div>
+									</div>
+									<div class="p-3">
+										<button class="btn btn-lg bg-green text-white left">Message</button>
+										<button class="btn btn-lg bg-green m-btn-yellow text-green float-right">Review</button>
+									</div>
+								</div>
+								
+								<div class="text-right font-weight-bold">
+									<a href="jobs.html" class="text-green">See More</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div>
+								<div class="pl-md-5 ml-sm-3 mb-4">
+									<h6 class="small">Monthly Earnings</h6>
+									
+									<div class="d-flex text-muted">
+										<h5 class="font-weight-bold mr-5 pr-5">&#8358;1,500</h5>
+										<div class="pl-sm-5 ml-sm-5"><button class="btn btn-sm bg-green text-white ">Claim</button></div>
+									</div>
+									
+								</div>
+								<div class="d-flex font-weight-bold mb-4">
+									<div class="bg-yellow rounded-1 p-3 text-white flex-fill mr-3">
+										<div class="pb-5">
+											<i class="fas fa-chalkboard-teacher fa-2x"></i>
+										</div>
+										<div>
+											Jobs<br>Available
+										</div>
+									</div>
+									<div class="bg-green rounded-1 p-3 text-white flex-fill ml-3 text-right">
+										<div class="pb-5">
+											<i class="fas fa-credit-card fa-2x"></i>
+										</div>
+										<div >
+											Bank<br>Details
+										</div>
+									</div>
+								</div>
+								<div class="d-flex font-weight-bold mb-4">
+									<div class="bg-purple rounded-1 p-3 text-white flex-fill mr-3">
+										<div class="pb-5">
+											<i class="fas fa-list-alt fa-2x"></i>
+										</div>
+										<div>
+											Lessons<br>Completed
+										</div>
+									</div>
+									<div class="bg-orange rounded-1 p-3 text-white flex-fill ml-3 text-right">
+										<div class="pb-5">
+											<i class="fas fa-calendar-alt fa-2x"></i>
+										</div>
+										<div >
+											Schedules
+										</div>
+									</div>
+								</div>
+								<h6 class="font-weight-bold py-3">Suggested Jobs</h6>
+								<div class="shadow p-3 rounded-1 mb-4">
+									<div>
+										<h6 class="font-weight-bold">Fine Art</h6>
+										<div class="small">(Mosaic Art)</div>
+										<div class="small">Monday, 26th</div>
+										<div class="small">5pm-8pm</div>
+
+									</div>
+									<div class="d-flex justify-content-between pt-3">
+										<div class="text-center">
+												<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="20px" height="20px">
+												<span class="font-weight-bold">Abayomi A.</span>
+										</div>
+										<div class="font-weight-bold">
+											14 hr ago
+										</div>
+									</div>
+								</div>
+								<div class="shadow p-3 rounded-1 mb-4">
+									<div>
+										<h6 class="font-weight-bold">Computer Science</h6>
+										<div class="small">(Electronic gadgets)</div>
+										<div class="small">Thursday, 26th-28th</div>
+										<div class="small">6pm-8pm</div>
+
+									</div>
+									<div class="d-flex justify-content-between pt-3">
+										<div class="text-center">
+												<img src="https://i.pravatar.cc/300" class="circle rounded-circle img-circle" width="20px" height="20px">
+												<span class="font-weight-bold">Vera Orim</span>
+										</div>
+										<div class="font-weight-bold">
+											12 hr ago
+										</div>
+									</div>
+								</div>
+								<div class="text-right font-weight-bold">
+									<a href="#" class="text-green">See More</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
+
+
+
